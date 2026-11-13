@@ -1,0 +1,47 @@
+{
+  "rows": 2100,
+  "parse_valid_rate": 0.9242857142857143,
+  "all_evidence_valid_rate": 0.43333333333333335,
+  "truncated_rate": 0.06666666666666667,
+  "by_split": {
+    "dev": {
+      "n": 300,
+      "original_label_n": 176,
+      "comparable_n": 93,
+      "agreement_on_comparable": 0.6236559139784946,
+      "coverage": {
+        "renovation": 0.5166666666666667,
+        "furniture": 0.18,
+        "water_view": 0.10666666666666667,
+        "urgency": 0.13,
+        "legal": 0.18
+      }
+    },
+    "test": {
+      "n": 400,
+      "original_label_n": 257,
+      "comparable_n": 106,
+      "agreement_on_comparable": 0.6509433962264151,
+      "coverage": {
+        "renovation": 0.395,
+        "furniture": 0.1525,
+        "water_view": 0.105,
+        "urgency": 0.11,
+        "legal": 0.1675
+      }
+    },
+    "train": {
+      "n": 1400,
+      "original_label_n": 827,
+      "comparable_n": 386,
+      "agreement_on_comparable": 0.5699481865284974,
+      "coverage": {
+        "renovation": 0.41928571428571426,
+        "furniture": 0.12071428571428572,
+        "water_view": 0.08142857142857143,
+        "urgency": 0.10142857142857142,
+        "legal": 0.15928571428571428
+      }
+    }
+  }
+}

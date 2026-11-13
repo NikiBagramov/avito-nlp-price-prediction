@@ -1,0 +1,251 @@
+[
+  {
+    "method": "median",
+    "log_mae": 0.5086339043333595,
+    "mae_rub": 9976114.325798864,
+    "rmse_rub": 24413566.312507957,
+    "median_ape": 0.41911421191544895,
+    "r2": -0.06334592211181067,
+    "dev_log_mae": 0.517166816,
+    "seconds": 0.0001291,
+    "parameters": {}
+  },
+  {
+    "method": "tabular",
+    "log_mae": 0.17248408055236314,
+    "mae_rub": 3906462.5179463835,
+    "rmse_rub": 11434338.478355575,
+    "median_ape": 0.12554768945171887,
+    "r2": 0.7667432570468482,
+    "dev_log_mae": 0.1683111118,
+    "seconds": 42.55132,
+    "parameters": {
+      "depth": 6,
+      "iterations": 1500,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "learning_rate": 0.04,
+      "selection": "dev log MAE",
+      "seed_test_log_mae": [
+        0.1724840806,
+        0.1729429411,
+        0.1791290144
+      ]
+    }
+  },
+  {
+    "method": "tabular_rich",
+    "log_mae": 0.16227582935771132,
+    "mae_rub": 3944412.9284521975,
+    "rmse_rub": 12441593.40839,
+    "median_ape": 0.12003516933882422,
+    "r2": 0.7238378672323086,
+    "dev_log_mae": 0.159433576,
+    "seconds": 102.2275199,
+    "parameters": {
+      "depth": 6,
+      "iterations": 1500,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "learning_rate": 0.04,
+      "selection": "dev log MAE",
+      "seed_test_log_mae": [
+        0.1622758294,
+        0.164568189,
+        0.1623331845
+      ]
+    }
+  },
+  {
+    "method": "tabular_rules",
+    "log_mae": 0.1728592870288659,
+    "mae_rub": 4113285.1838066266,
+    "rmse_rub": 12128685.282278467,
+    "median_ape": 0.11405434889053251,
+    "r2": 0.7375542325473067,
+    "dev_log_mae": 0.173942228,
+    "seconds": 21.9948436,
+    "parameters": {
+      "depth": 6,
+      "iterations": 774,
+      "seeds": [
+        42
+      ],
+      "learning_rate": 0.04,
+      "selection": "dev log MAE",
+      "seed_test_log_mae": [
+        0.172859287
+      ]
+    }
+  },
+  {
+    "method": "tfidf",
+    "log_mae": 0.3557154172526882,
+    "mae_rub": 7567595.767142708,
+    "rmse_rub": 20194912.260945678,
+    "median_ape": 0.2896783592482374,
+    "r2": 0.27239435395488454,
+    "dev_log_mae": 0.3340292696,
+    "seconds": 0.9205467,
+    "parameters": {
+      "alpha": 1,
+      "vocabulary_size": 19641,
+      "ngrams": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "method": "tabular_tfidf_blend",
+    "log_mae": 0.16981263153965556,
+    "mae_rub": 3785485.220349679,
+    "rmse_rub": 11410548.696093284,
+    "median_ape": 0.1183374000527154,
+    "r2": 0.7677128548074031,
+    "dev_log_mae": 0.1660043375,
+    "seconds": 0.9282389,
+    "parameters": {
+      "text_weight": 0.1,
+      "selection": "dev only convex blend"
+    }
+  },
+  {
+    "method": "tabular_tfidf_residual",
+    "log_mae": 0.169100492961443,
+    "mae_rub": 3841280.648394208,
+    "rmse_rub": 11368251.048794156,
+    "median_ape": 0.12025279190406193,
+    "r2": 0.7694317886700971,
+    "dev_log_mae": 0.1667721309,
+    "seconds": 24.6801672,
+    "parameters": {
+      "alpha": 10,
+      "crossfit_folds": 3,
+      "vocabulary_fit": "train only"
+    }
+  },
+  {
+    "method": "embedding_ridge",
+    "log_mae": 0.3303021371566981,
+    "mae_rub": 7071497.686129992,
+    "rmse_rub": 19206034.904112842,
+    "median_ape": 0.27437602834599895,
+    "r2": 0.3419065827548753,
+    "dev_log_mae": 0.3614894801,
+    "seconds": 0.1034428,
+    "parameters": {
+      "alpha": 1
+    }
+  },
+  {
+    "method": "tabular_embedding_residual",
+    "log_mae": 0.17103407148318936,
+    "mae_rub": 3855631.1354220686,
+    "rmse_rub": 11317899.317687131,
+    "median_ape": 0.12383406407665173,
+    "r2": 0.7714697096097559,
+    "dev_log_mae": 0.1592814908,
+    "seconds": 0.089697,
+    "parameters": {
+      "alpha": 10,
+      "crossfit_folds": 3
+    }
+  },
+  {
+    "method": "tabular_llm",
+    "log_mae": 0.18049608399958608,
+    "mae_rub": 4079281.317515925,
+    "rmse_rub": 11574328.948690211,
+    "median_ape": 0.13064626822222944,
+    "r2": 0.760996774943441,
+    "dev_log_mae": 0.1742256107,
+    "seconds": 50.6904447,
+    "parameters": {
+      "depth": 6,
+      "iterations": 1392,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "learning_rate": 0.04,
+      "selection": "dev log MAE",
+      "seed_test_log_mae": [
+        0.180496084,
+        0.1693152681,
+        0.1781648932
+      ]
+    }
+  },
+  {
+    "method": "tabular_llm_fewshot",
+    "log_mae": 0.17295311511718706,
+    "mae_rub": 3839490.7056549024,
+    "rmse_rub": 11318618.779410174,
+    "median_ape": 0.12478060571284436,
+    "r2": 0.7714406540371972,
+    "dev_log_mae": 0.1710550464,
+    "seconds": 44.9711613,
+    "parameters": {
+      "depth": 8,
+      "iterations": 627,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "learning_rate": 0.04,
+      "selection": "dev log MAE",
+      "seed_test_log_mae": [
+        0.1729531151,
+        0.17542858,
+        0.1767656891
+      ]
+    }
+  },
+  {
+    "method": "llm_price_0shot",
+    "log_mae": 2.0127564001142204,
+    "mae_rub": 13281911.9075,
+    "rmse_rub": 27378373.502133634,
+    "median_ape": 0.7370552693059791,
+    "r2": -0.337295573178896,
+    "dev_log_mae": 1.9981265013518397,
+    "invalid_test": 147,
+    "invalid_dev": 104,
+    "fallback": "train price median for invalid outputs only"
+  },
+  {
+    "method": "llm_price_3shot",
+    "log_mae": 0.4207042848206038,
+    "mae_rub": 9166608.227500001,
+    "rmse_rub": 30229063.862596523,
+    "median_ape": 0.30119064493267034,
+    "r2": -0.63027742695032,
+    "dev_log_mae": 0.46096196479062124,
+    "invalid_test": 36,
+    "invalid_dev": 28,
+    "fallback": "train price median for invalid outputs only"
+  },
+  {
+    "method": "knn3",
+    "log_mae": 0.29512666659605896,
+    "mae_rub": 7178180.653333325,
+    "rmse_rub": 22996257.127435047,
+    "median_ape": 0.24243825166727773,
+    "r2": 0.05653361536925372,
+    "dev_log_mae": 0.2914892756181574,
+    "parameters": {
+      "neighbors": 3,
+      "selection": "same training examples as 3-shot LLM",
+      "aggregation": "arithmetic mean price"
+    }
+  }
+]

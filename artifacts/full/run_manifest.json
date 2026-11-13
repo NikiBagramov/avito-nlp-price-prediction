@@ -1,0 +1,12 @@
+{
+  "selected_by_dev": "rich_embedding_residual",
+  "rows": 30775,
+  "splits": {
+    "train": 21718,
+    "dev": 4582,
+    "test": 4475
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.6",
+  "test_metrics_authority": "float64 recomputation from released predictions.csv; dev selection unchanged"
+}

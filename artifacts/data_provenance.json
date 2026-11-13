@@ -1,0 +1,22 @@
+{
+  "source": "https://www.kaggle.com/api/v1/datasets/download/veronikavyalkova/saint-petersburg-avito-listings",
+  "dataset_page": "https://www.kaggle.com/datasets/veronikavyalkova/saint-petersburg-avito-listings",
+  "archive_sha256": "987359dd03e80fc524ee8c564de839ed914dd379b586e3ec63c97f96c86d6ce0",
+  "files": [
+    {
+      "name": "avito_clean_final_full.xlsx",
+      "bytes": 44431049,
+      "sha256": "f0c22b1931274725168e40fb0a13be8e0b24d19fafd8a1e9d9b02653ef9c2965"
+    },
+    {
+      "name": "clean_data.py",
+      "bytes": 11341,
+      "sha256": "594e9123daadf823523d822a8d32b6bf507d3de123e2d647c714e6e28d73f958"
+    },
+    {
+      "name": "main.py",
+      "bytes": 6668,
+      "sha256": "dd8cc3c4b141b216fb7b8b53f0c9bcaf0a0870c2d14fff8a0fc13d402d18a2ff"
+    }
+  ]
+}

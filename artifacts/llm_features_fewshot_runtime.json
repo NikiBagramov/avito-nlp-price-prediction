@@ -1,0 +1,1 @@
+{"seconds_this_session": 2693.034824000002, "new_tasks": 2068, "batch_size": 8, "max_input_tokens": 1536, "max_new_tokens": 256, "greedy": true, "thinking": false, "device": "NVIDIA GeForce RTX 3060 Laptop GPU"}

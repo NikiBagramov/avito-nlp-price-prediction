@@ -1,0 +1,9 @@
+{
+  "title": "Do Russian Real-Estate Descriptions Improve Asking-Price Prediction?",
+  "authors": ["Nikita Bagramov", "Alfiya Iskhakova"],
+  "authors_ru": ["Никита Баграмов", "Альфия Исхакова"],
+  "repository_url": "https://github.com/NikiBagramov/avito-nlp-price-prediction",
+  "contributions": {},
+  "date": "2026-11-13",
+  "course": "Natural Language Processing & LLMs, autumn 2026"
+}

@@ -1,0 +1,9 @@
+{
+  "rows": 30775,
+  "dimension": 1024,
+  "max_length": 512,
+  "pooling": "last non-padding token (left padding)",
+  "normalization": "L2",
+  "data_ids_sha256": "f25683a1db1fc3c788291108438ca9ca0eca767168726bf7c619782d74cf36c9",
+  "seconds_this_session": 1515.4871671000146
+}

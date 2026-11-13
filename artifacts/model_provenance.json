@@ -1,0 +1,7 @@
+{
+  "repo": "Qwen/Qwen3-Embedding-0.6B",
+  "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "license": "Apache-2.0",
+  "generation_model": "Qwen/Qwen3-1.7B",
+  "generation_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+}
